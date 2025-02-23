@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop Disease & Pest Diagnosis</title>
+  <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+  <header>
+    <div class="logo">CropCare AI</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Diagnosis History</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <h1>Upload Your Plant Image for Diagnosis</h1>
+      <p>Get real-time advice on crop diseases, pests, and control methods using AI-powered analysis.</p>
+
+      <div class="upload-box">
+        <p>Drag & drop or <span>click to upload</span> an image</p>
+        <input type="file" id="image-upload" accept="image/*">
+      </div>
+
+      <div class="additional-data">
+        <h2>Additional Data (Optional)</h2>
+        <div class="soil-data">
+          <label for="ph-level">Soil pH Level:</label>
+          <input type="number" id="ph-level" step="0.1" min="0" max="14">
+        </div>
+        <div class="weather-data">
+          <label for="temperature">Temperature (°C):</label>
+          <input type="number" id="temperature">
+          <label for="humidity">Humidity (%):</label>
+          <input type="number" id="humidity">
+        </div>
+      </div>
+
+      <button class="analyze-button">Analyze Image</button>
+    </section>
+
+    <section class="results-section">
+      <h2>Diagnosis & Recommendations</h2>
+      <div class="results-output">
+        <p><strong>Detected Disease/Pest:</strong> <span id="disease">Leaf Rust</span></p>
+        <p><strong>Confidence Level:</strong> <span id="confidence">95%</span></p>
+        <p><strong>Affected Plant Part:</strong> <span id="plant-part">Leaves</span></p>
+      </div>
+
+      <div class="recommendations">
+        <h3>Control Methods</h3>
+        <ul>
+          <li><strong>Natural:</strong> Neem oil spray</li>
+          <li><strong>Organic:</strong> Compost tea application</li>
+          <li><strong>Chemical:</strong> Fungicide X</li>
+        </ul>
+      </div>
+
+      <div class="prevention-tips">
+        <h3>Prevention Tips</h3>
+        <p>Ensure proper spacing between plants for air circulation.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact Support: <a href="mailto:support@cropcareai.com">support@cropcareai.com</a></p>
+    <p>Follow us on: 
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">WhatsApp</a>
+    </p>
+    <p class="disclaimer">Results are based on AI analysis and should be validated by an agronomist for critical decisions.</p>
+  </footer>
+</body>
+</html>

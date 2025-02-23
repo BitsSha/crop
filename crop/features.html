@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Crop Care - Features</title>
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling with background image */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); /* Add your background image URL here */
+      background-size: cover;
+      background-position: center;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Overlay to improve text readability */
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white overlay */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    /* Features Section Styling */
+    .features-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .features-section h2 {
+      font-size: 32px;
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+
+    .features-grid {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .feature-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      text-align: center;
+    }
+
+    .feature-card i {
+      font-size: 40px;
+      color: #4CAF50;
+      margin-bottom: 15px;
+    }
+
+    .feature-card h3 {
+      font-size: 24px;
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    .feature-card p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .feature-card {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  </style>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Overlay for better readability -->
+  <div class="overlay">
+
+    <!-- Features Section -->
+    <div class="features-section" id="features">
+      <h2>Our Features</h2>
+      <div class="features-grid">
+        <!-- Feature 1: AI-Powered Disease Detection -->
+        <div class="feature-card">
+          <i class="fas fa-robot"></i>
+          <h3>AI-Powered Disease Detection</h3>
+          <p>Upload images of your crops to detect diseases and pests in real-time using advanced AI algorithms.</p>
+        </div>
+
+        <!-- Feature 2: Real-Time Weather Insights -->
+        <div class="feature-card">
+          <i class="fas fa-cloud-sun"></i>
+          <h3>Real-Time Weather Insights</h3>
+          <p>Get accurate weather forecasts and insights to plan your farming activities effectively.</p>
+        </div>
+
+        <!-- Feature 3: Organic Control Methods -->
+        <div class="feature-card">
+          <i class="fas fa-leaf"></i>
+          <h3>Organic Control Methods</h3>
+          <p>Receive recommendations for natural and organic methods to control diseases and pests.</p>
+        </div>
+
+        <!-- Feature 4: Soil Health Analysis -->
+        <div class="feature-card">
+          <i class="fas fa-seedling"></i>
+          <h3>Soil Health Analysis</h3>
+          <p>Analyze soil health and get tailored recommendations for improving crop yield.</p>
+        </div>
+
+        <!-- Feature 5: Pest Identification -->
+        <div class="feature-card">
+          <i class="fas fa-bug"></i>
+          <h3>Pest Identification</h3>
+          <p>Identify pests accurately and take preventive measures to protect your crops.</p>
+        </div>
+
+        <!-- Feature 6: Farmer Community -->
+        <div class="feature-card">
+          <i class="fas fa-users"></i>
+          <h3>Farmer Community</h3>
+          <p>Connect with other farmers, share experiences, and get expert advice.</p>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

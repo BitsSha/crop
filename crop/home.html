@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Crop Care - Home</title>
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling with background image */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); /* Add your background image URL here */
+      background-size: cover;
+      background-position: center;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Overlay to improve text readability */
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: rgba(76, 175, 80, 0.9); /* Semi-transparent green background */
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header styling */
+    header {
+      text-align: center;
+      margin-top: 80px; /* Adjusted for fixed nav */
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    /* Call-to-action buttons */
+    .cta-buttons {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .cta-buttons a {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .cta-buttons a:hover {
+      background-color: #45a049;
+    }
+
+    /* Featured sections */
+    .featured-sections {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+    
+    }
+
+    .featured-section {
+      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .featured-section h3 {
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    .featured-section p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent dark background */
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .featured-section {
+        width: 100%;
+        margin: 10px 0;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">AI Crop Care</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Overlay for better readability -->
+  <div class="overlay">
+
+    <!-- Header Section -->
+    <header id="home">
+      <h1>AI Crop Care</h1>
+      <p>Empowering farmers with AI-powered disease detection, weather insights, and organic control methods.</p>
+    </header>
+
+    <!-- Call-to-Action Buttons -->
+    <div class="cta-buttons">
+      <a href="upload.html">Upload Image for Diagnosis</a>
+      <a href="soil.html">Check Soil & Weather Data</a>
+    </div>
+
+    <!-- Featured Sections -->
+    <div class="featured-sections" id="features">
+      <div class="featured-section">
+        <h3>AI-Powered Disease & Pest Detection</h3>
+        <p>Upload images of your crops to detect diseases and pests in real-time using advanced AI algorithms.</p>
+      </div>
+      <div class="featured-section">
+        <h3>Real-Time Weather Insights</h3>
+        <p>Get accurate weather forecasts and insights to plan your farming activities effectively.</p>
+      </div>
+      <div class="featured-section">
+        <h3>Organic & Natural Control Methods</h3>
+        <p>Receive recommendations for natural and organic methods to control diseases and pests.</p>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2023 AI Crop Care. All rights reserved.</p>
+      
+    </footer>
+    
+    </form>
+    </form>
+  </div>
+
+</body>
+</html>

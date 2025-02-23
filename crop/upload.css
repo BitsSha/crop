@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .upload-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .upload-section h1 {
+    margin-top: 0;
+  }
+  
+  .upload-box {
+    border: 2px dashed #4CAF50;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .upload-box p {
+    margin: 0;
+  }
+  
+  .upload-box span {
+    color: #4CAF50;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .additional-data {
+    margin-top: 20px;
+  }
+  
+  .additional-data h2 {
+    margin-bottom: 10px;
+  }
+  
+  .additional-data label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .additional-data input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .analyze-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .analyze-button:hover {
+    background-color: #45a049;
+  }
+  
+  .results-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-section h2 {
+    margin-top: 0;
+  }
+  
+  .results-output p {
+    margin: 5px 0;
+  }
+  
+  .recommendations ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .prevention-tips {
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  footer .disclaimer {
+    font-size: 12px;
+    margin-top: 10px;
+  }
